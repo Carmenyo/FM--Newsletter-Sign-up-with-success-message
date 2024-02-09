@@ -1,0 +1,27 @@
+body {
+    font-family: MyFont;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $DarkSlateGrey;
+  }
+  
+  .card {
+    border: solid red 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    background-color: $White;
+    padding: 20px;
+    border-radius: 2rem;
+
+    &__left{
+        width: 60%;
+    }
+&__list{
+    list-style-image: url(../assets/images/icon-list.svg);
+}
+  }
+
