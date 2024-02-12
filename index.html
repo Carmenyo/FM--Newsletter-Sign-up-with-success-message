@@ -11,12 +11,12 @@
 <!-- FONTS -->
 <link rel="stylesheet" href=link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   
 <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
 <body>
-<main class="card">
+<main class="card hide">
   <div class="card__left">
     <h1 class="card__title">
       Stay updated!
@@ -42,16 +42,28 @@
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
+</main>
 
-  <!-- Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
+  <div class="card__success">
+    <img class="card__success-icon" src="./assets/images/icon-list.svg" alt="icon list">
+    <h1 class="card__success-title">
+      Thanks for subscribing!
+    </h1>
+    <p class="card__success-paragraph">
+      A confirmation email has been sent to <strong> ash@loremcompany.com.</strong> 
   Please open it and click the button inside to confirm your subscription.
+    </p>
+  
+    <button class="card__success-button">
+    Dismiss message      
+    </button>
 
-  Dismiss message -->
+  </div>
+
 
   <!-- Success message end -->
     <!-- Sign-up form start -->
-</main>
+
+<script src="./main.js"></script>
 </body>
 </html>
