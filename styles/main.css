@@ -26,6 +26,9 @@ body {
   width: 60%;
   padding: 4.5rem 3rem 1rem 3rem;
 }
+.card__image-mobile {
+  display: none;
+}
 .card__title {
   font-size: 3.4rem;
   font-weight: 700;
@@ -44,6 +47,7 @@ body {
 .card__form {
   display: flex;
   flex-direction: column;
+  width: 370px;
 }
 .card__label {
   font-size: 0.75rem;
@@ -65,6 +69,10 @@ body {
   font-size: 1rem;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
+}
+.card__button:hover {
+  background: linear-gradient(to right, #ea1d83, #FFA500);
 }
 
 .hide {
@@ -101,9 +109,43 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.card__success-button:hover {
+  background: linear-gradient(to right, #ea1d83, #FFA500);
 }
 
 .hide {
   display: none;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 0;
+    padding: 0;
+  }
+  .card__left {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .card__image-desktop {
+    display: none;
+  }
+  .card__image-mobile {
+    display: block;
+    width: 100%;
+  }
+  .card__title {
+    font-size: 2.4rem;
+  }
+  .card__form {
+    width: 95%;
+  }
 }/*# sourceMappingURL=main.css.map */

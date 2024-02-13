@@ -19,6 +19,9 @@ body {
     width: 60%;
     padding: 4.5rem 3rem 1rem 3rem;
   }
+&__image-mobile{
+  display: none;
+}
 &__title{
     font-size: 3.4rem;
     font-weight:700;
@@ -37,6 +40,7 @@ body {
 &__form{
   display: flex;
   flex-direction: column;
+  width: 370px;
 }
 &__label{
   font-size: .75rem;
@@ -58,8 +62,12 @@ body {
   font-size: 1rem;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
-  
+&__button:hover{
+ background: linear-gradient(to right, #ea1d83, #FFA500);
+};
+ 
 }
 
 // OCULTO LA TARJERTA
