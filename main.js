@@ -1,7 +1,11 @@
-// Constantes
-const form = document.querySelector ("card__form");
-form.addEventListener ("submit", (e)=> {
-    e.preventDefault();
-    
-}
-)
+
+  const form = document.querySelector(".cardFormJS");
+  const successMessage = document.querySelector(".cardSuccessJS");
+  const mainCard = document.querySelector(".cardJS");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault(); 
+    successMessage.classList.remove("hide");
+    mainCard.classList.add("hide");
+
+  });

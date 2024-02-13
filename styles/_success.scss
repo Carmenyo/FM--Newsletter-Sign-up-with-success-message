@@ -1,29 +1,32 @@
 // TARJETA SUCCESS
 .card__success{
-    background-color: $White;
-    display: flex;
-    flex-direction: column;
-    width: 504px;
-    padding:3rem 4rem ;
-    border-radius: 2rem;
-  }
-  .card__success-icon{
-    width: 65px;
-    margin-bottom: 2.7rem;
-  }
-  .card__success-title{
-  font-size: 3.5rem;
-  line-height: 3.3rem;
-  margin-bottom: 1.6rem;
-  }
-  .card__success-paragraph{
-    line-height: 1.5rem;
-    margin-bottom: 2.6rem;
-  }
-  .card__success-button{
-    background-color: $DarkSlateGrey;
-    color: $White;
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-  }
+  background-color: $White;
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+  padding:3rem 4rem ;
+  border-radius: 2rem;
+}
+.card__success-icon{
+  width: 65px;
+  margin-bottom: 2.7rem;
+}
+.card__success-title{
+font-size: 3.5rem;
+line-height: 3.3rem;
+margin-bottom: 1.6rem;
+}
+.card__success-paragraph{
+  line-height: 1.5rem;
+  margin-bottom: 2.6rem;
+}
+.card__success-button{
+  background-color: $DarkSlateGrey;
+  color: $White;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.hide{
+  display: none;
+}

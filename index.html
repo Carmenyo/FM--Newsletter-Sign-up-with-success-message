@@ -9,14 +9,15 @@
   <!-- STYLES -->
   <link rel="stylesheet" href="./styles/main.css">
 <!-- FONTS -->
-<link rel="stylesheet" href=link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
   
-<title>Frontend Mentor | Newsletter sign-up form with success message</title>
+<title>Newsletter sign-up form with success message</title>
 
 <body>
-<main class="card hide">
+<div class="card cardJS">
   <div class="card__left">
     <h1 class="card__title">
       Stay updated!
@@ -29,7 +30,7 @@
   <li> Measuring to ensure updates are a success</li>
   <li>And much more!</li>
 </ul>
-<form class="card__form">
+<form class="card__form cardFormJS">
   <label class="card__label" for="email">Email address</label>
   <input class="card__input" type="email" id="email" placeholder="email@company.com">
   <button class="card__button" type="submit">Subscribe to monthly newsletter</button>
@@ -42,9 +43,9 @@
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
-</main>
+</div>
 
-  <div class="card__success">
+  <div class="card__success cardSuccessJS hide">
     <img class="card__success-icon" src="./assets/images/icon-list.svg" alt="icon list">
     <h1 class="card__success-title">
       Thanks for subscribing!
